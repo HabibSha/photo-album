@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+.container{
+    width: 1300px;
+    margin: auto;
+}
+header{
+    width: 100%;
+    background-color: blanchedalmond;
+    display: flow-root;
+}
+.nav-bar{
+    width: 100%;
+    padding: 25px 0px 37px 0px;
+}
+.logo{
+    width: 25%;
+    float: left;
+    font-size: 25px;
+    color: gray;
+}
+.menu{
+    width: 75%;
+    float: right;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: gray;
+    position: relative;
+}
+.menu ul li a::after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: linear-gradient(30deg, rgb(32, 149, 216), rgb(28, 213, 238));
+    position: absolute;
+    left: 0;
+    top: 30px;
+    transition: .5s;
+}
+.menu ul li a:hover{
+    color: black;
+}
+.menu ul li a:hover::after{
+    width: 100%;
+    color: black;
+}
+.main{
+    width: 100%;
+    display: flow-root;
+}
+.container img{
+    margin-top: 25px;
+}
+.container .details{
+    padding: 80px 80px 80px 80px;
+}
+.container .details h5{
+    padding-bottom: 25px;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+.container .details h1{
+    padding-bottom: 25px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+.container .details p{
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+.container .details h6{
+    padding-top: 25px;
+    font-size: 17px;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+.container .galary{
+    padding: 0px 80px 80px 80px;
+    display: flow-root;
+}
+.container .galary .left .extra{
+    float: left;
+    width: 48%;
+}
+.container .galary .left .extra h4{
+    padding-top: 15px;
+    text-transform: uppercase;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+.container .galary .left .extra h1{
+    padding-top: 15px;
+    text-transform: capitalize;
+}
+.container .galary .left .extra p{
+    padding-top: 8px;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+.container .galary .right .extra{
+    float: right;
+    width: 48%;
+}
+.container .galary .right .extra h4{
+    padding-top: 15px;
+    text-transform: uppercase;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+.container .galary .right .extra h1{
+    padding-top: 15px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+.container .galary .right .extra p{
+    padding-top: 08px;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+.sign-up{
+    width: 100%;
+    background-color: #f0f0f0;
+    display: flow-root;
+    padding: 70px 0px;
+}
+.subscribe{
+    text-align: center;
+}
+.subscribe h1{
+    margin-bottom: 40px;
+}
+.subscribe input{
+    width: 300px;
+    padding: 15px 0px;
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: transparent;
+}
+.subscribe input::placeholder{
+    color: grey;
+}
+.subscribe input:focus{
+    outline: none;
+}
+.container .galary-2{
+    padding: 80px;
+    display: flow-root;
+}
+.container .galary-2 .left .extra{
+    float: left;
+    width: 48%;
+}
+.container .galary-2 .left .extra h4{
+    padding-top: 15px;
+    text-transform: uppercase;
+    color: grey;
+}
+.container .galary-2 .left .extra h1{
+    padding-top: 15px;
+    text-transform: capitalize;
+}
+.container .galary-2 .left .extra p{
+    padding-top: 8px;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+.container .galary-2 .right .extra{
+    float: right;
+    width: 48%;
+}
+.container .galary-2 .right .extra h4{
+    padding-top: 15px;
+    text-transform: uppercase;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+.container .galary-2 .right .extra h1{
+    padding-top: 15px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+.container .galary-2 .right .extra p{
+    padding-top: 08px;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+.container .btn{
+    display: flow-root;
+    padding: 0px 0px 80px 0px;
+    text-align: center;
+}
+.container .btn button{
+    padding: 15px;
+    width: 10%;
+    border: none;
+    border: 1px solid rgba(0,0,0,.5);
+    cursor: pointer;
+    background-image: linear-gradient(to left, rgb(226, 95, 55), rgb(238, 191, 89));
+    border-radius: 3px;
+    font-size: 18px;
+    transition: .5s;
+}
+.container .btn button:hover{
+    background-image: linear-gradient(to right, rgb(17, 202, 125), rgb(82, 235, 11));
+    transform: scale(1.1);
+}
+.footer{
+    background: #f0f0f0;
+    width: 100%;
+}
+.footer .container .extra-2{
+    padding: 40px 80px 40px 80px;
+}
+.footer .container .extra-2 .left{
+    float: left;
+    width: 50%;
+    color: grey;
+}
+.footer .container .extra-2 .right{
+    float: right;
+    width: 50%;
+    justify-content: right;
+    display: flex;
+}
+.footer .container .extra-2 .right p{
+    margin-right: 3%;
+    color: grey;
+}
+.footer .container .extra-2 .right a i{
+    margin: 0px 8px;
+    font-size: 19px;
+    color: rgb(31, 95, 214);
+    transition: .3s;
+}
+.footer .container .extra-2 .right a i:hover{
+    transform: scale(1.5);
+}
